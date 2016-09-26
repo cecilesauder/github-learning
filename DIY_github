@@ -1,0 +1,28 @@
+#mettre un dossier sur github
+
+creer le repository sur github
+
+cd git/tutoWS/
+
+git status
+y a deja un git de créé donc on fait le 2/
+
+1/ …or create a new repository on the command line
+echo "# tutoWS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:cecilesauder/tutoWS.git
+git push -u origin master
+
+2/ or push an existing repository from the command line
+git remote add origin git@github.com:cecilesauder/tutoWS.git
+git push -u origin master
+
+
+#########################################################
+Travailler sur un github repository existant 
+
+- dans Rstudio : creer un nouveau projet /version controle
+et lui donner l'addresse du truc cloné sur github
+
